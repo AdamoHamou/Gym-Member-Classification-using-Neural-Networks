@@ -20,19 +20,34 @@ This project applies a **Multi-Layer Perceptron (MLP)** neural network to classi
 - **Neural Network:** Achieved **93.4% accuracy**, **95% precision**, **92% recall**, and **93% F1 score**  
 - Demonstrated that neural networks outperform KNN on this dataset, though KNN trains faster on smaller datasets.
 
-## 📈 Results and Visualization
-- PCA used to project features into 3D for visualization.  
-- Plots include:
-  - Original data (male vs female)
-  - Data with missing values
-  - Predicted vs actual classifications (triangles = predicted values)
+## 📈 Results & Visualization
+The model was evaluated using **accuracy, precision, recall, and F1-score** from scikit-learn’s metrics library.  
+
+**Metrics Output:**
+Accuracy = 93.4%
+Precision = 95.2%
+Recall = 91.7%
+F1 Score = 93.4%
+
+**PCA Visualizations:**  
+Below are the 3D PCA plots generated during training and prediction:  
+
+- **Original Male vs Female in Gym**  
+![Original PCA](images/pca_original.png)
+
+- **Data with Missing Values**  
+![Missing PCA](images/pca_missing.png)
+
+- **Predicted vs Actual (Triangles = Predicted)**  
+![Predicted PCA](images/pca_predicted.png)
+
+> To regenerate plots, run `python NN.py`. Figures will appear in the `images/` directory (or can be saved manually from Matplotlib).
 
 ## 📚 Libraries Used
-- `scikit-learn` (MLPClassifier, metrics, preprocessing, PCA)
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `seaborn`
+- `scikit-learn` (MLPClassifier, metrics, preprocessing, PCA)  
+- `numpy`  
+- `pandas`  
+- `matplotlib`  
 
 ---
 
