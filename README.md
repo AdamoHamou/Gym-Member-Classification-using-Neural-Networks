@@ -24,10 +24,10 @@ This project applies a **Multi-Layer Perceptron (MLP)** neural network to classi
 The model was evaluated using **accuracy, precision, recall, and F1-score** from scikit-learn’s metrics library.  
 
 **Metrics Output:**
-Accuracy = 93.4%
-Precision = 95.2%
-Recall = 91.7%
-F1 Score = 93.4%
+Accuracy = 93.4%  
+Precision = 95.2%  
+Recall = 91.7%  
+F1 Score = 93.4%  
 
 **PCA Visualizations:**  
 Below are the 3D PCA plots generated during training and prediction:  
